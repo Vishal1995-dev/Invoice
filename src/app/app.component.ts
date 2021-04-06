@@ -35,7 +35,7 @@ export class AppComponent {
     let docDefinition = {
       content: [
         {
-          text: 'ELECTRONIC SHOP',
+          text: 'Yash Opticals',
           fontSize: 16,
           alignment: 'center',
           color: '#047886'
@@ -46,7 +46,7 @@ export class AppComponent {
           bold: true,
           alignment: 'center',
           decoration: 'underline',
-          color: 'skyblue'
+          color: 'black'
         },
         {
           text: 'Customer Details',
@@ -110,7 +110,6 @@ export class AppComponent {
         },
         {
             ul: [
-              'Order can be return in max 10 days.',
               'Warrenty of the product will be subject to the manufacturer terms and conditions.',
               'This is system generated invoice.',
             ],

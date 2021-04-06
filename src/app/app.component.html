@@ -22,21 +22,19 @@
                                 <div class="form-group">
                                     <label for="address">Address</label>
                                     <textarea class="form-control" name="address" id="address" row="3"
-                                        [ngClass]="{'is-invalid': invoiceForm.submitted && Address.invalid}"
-                                        [(ngModel)]="invoice.address" #Address="ngModel" required></textarea>
+                                        [(ngModel)]="invoice.address" #Address="ngModel"></textarea>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="email">Email ID</label>
                                     <input type="email" class="form-control" name="email" id="email"
-                                        [(ngModel)]="invoice.email" required>
+                                        [(ngModel)]="invoice.email">
                                 </div>
                                 <div class="form-group">
                                     <label for="contactNo">Contact No.</label>
                                     <input type="number" class="form-control" name="contactNo" id="contactNo"
-                                        [ngClass]="{'is-invalid': invoiceForm.submitted && ContactNo.invalid}"
-                                        [(ngModel)]="invoice.contactNo" #ContactNo="ngModel" required>
+                                        [(ngModel)]="invoice.contactNo" #ContactNo="ngModel">
                                 </div>
                             </div>
                         </div>
@@ -107,11 +105,3 @@
         </div>
     </div>
 </form>
-<footer class="fixed-bottom">
-    <div class="bg-light text-center p-2">
-        <h6>Made with 💗 by
-            <a class="twitter-follow-button" href="https://twitter.com/ankit_ngdevelop" target="_blank"> <i class="fa fa-twitter"
-                    aria-hidden="true"></i>Ankit_NgDevelop</a>.
-        </h6>
-    </div>
-</footer>
